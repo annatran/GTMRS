@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>New User Registration</title>
+</head>
+
+<body>
+	<h1>New User Registration</h1>
+
+	<form method="post" action="createprofile.php">
+		Username: <input type="text" name="username" id="username"/></br>
+		Password: <input type="text" name="password" id="password"/></br>
+		Confirm Password: <input type="text" name="confirmpw" id="confirmpw"/></br>
+		Type of User: <select>
+			<option value="doctor">Doctor</option>
+			<option value="admin">Administrative Personnel</option>
+			<option value="patient">Patient</option>
+		</select> </br>
+
+		<input type="submit" name="register" value="Register"/>
+	</form>
+
+</body>
+</html>
